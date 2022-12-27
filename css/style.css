@@ -38,8 +38,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
 
 
-
-
 /*--- 1. Default css starts ---*/
 
 html,body{
@@ -54,6 +52,8 @@ body{
     line-height: 1.7;
     color: #333333;
     font-weight: 400;
+    scrollbar-width: none; 
+    overflow: -moz-scrollbars-none; 
 }
 
 h1,
