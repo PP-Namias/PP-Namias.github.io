@@ -595,6 +595,74 @@ canvas{
     border: 1px solid #00b0dc;
 }
 
+
+.btn {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 45px;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.btn:hover {
+    text-decoration: none;
+  }
+
+.effectBtn {
+    --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+    display: var(--uismLinkDisplay);
+    color: #000;
+    outline: solid  2px #000;
+    position: relative;
+    transition-duration: 0.4s;
+    overflow: hidden;
+}
+  
+.effectBtn::before,
+.effectBtn span{
+      margin: 0 auto;
+      transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+      transition-duration: 0.4s;
+}
+  
+.effectBtn:hover{
+    background-color: #000;
+}
+  
+.effectBtn:hover span{
+    -webkit-transform: translateY(-400%) scale(-0.1,20);
+            transform: translateY(-400%) scale(-0.1,20);
+}
+  
+.effectBtn::before{
+    content: attr(data-before-effect-link-text);
+    color: #FFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: translateY(500%) scale(-0.1,20);
+            transform: translateY(500%) scale(-0.1,20);
+}
+  
+.effectBtn:hover::before{
+    letter-spacing: 0.05em;
+    -webkit-transform: translateY(0) scale(1,1);
+            transform: translateY(0) scale(1,1);
+}
+
+
+
+
 .about-text-left {
     margin-top: 90px;
 }
