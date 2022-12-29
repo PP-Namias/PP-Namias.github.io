@@ -1,16 +1,4 @@
-/*********************************************************
-
-    Template Name:  Robin - Personal Portfolio HTML Template
-    Author: MouriTheme
-    Version: 1.0
-    Design and Developed by: MouriTheme
-
-    NB: This is the main stylesheet of this theme.
-
-***********************************************************/
-
 /*Table of Content
-
 
 1. Default css
 2. Preloader Css
@@ -42,6 +30,7 @@
 
 html,body{
     height: 100%;
+    scrollbar-width: none;
 }
 
 body{
@@ -589,18 +578,62 @@ canvas{
     color: #fff;
 }
 
-.down-btn {
-    background: none;
-    color: #2B2F37;
-    border: 1px solid #00b0dc;
+.btn {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    background: #00b0dc;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
 }
 
+
+.btn.btn-border-3::after,
+.btn.btn-border-3::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+.btn.btn-border-3::after {
+    top: -9px;
+    left: -9px;
+    border-top: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+.btn.btn-border-3::before {
+    bottom: -9px;
+    right: -9px;
+    border-bottom: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+.btn.btn-border-3:hover {
+    color: #000000;
+}
+
+.btn.btn-border-3:hover::after,
+.btn.btn-border-3:hover::before {
+    width: 50px;
+    height: 50px;
+    border-color: #000000;
+}
 
 .btn {
     margin-top: 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     letter-spacing: 1px;
     cursor: pointer;
     font-size: 14px;
@@ -615,34 +648,36 @@ canvas{
 
 .btn:hover {
     text-decoration: none;
-  }
+}
 
 .effectBtn {
     --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
     display: var(--uismLinkDisplay);
-    color: #000;
-    outline: solid  2px #000;
+    color: #000000;
+    outline: solid  1px #000000;
     position: relative;
     transition-duration: 0.4s;
     overflow: hidden;
+    border: 1px solid #000000;
+    background: #ffffff;
 }
-  
+
 .effectBtn::before,
 .effectBtn span{
-      margin: 0 auto;
-      transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-      transition-duration: 0.4s;
+    margin: 0 auto;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-duration: 0.4s;
 }
-  
+
 .effectBtn:hover{
-    background-color: #000;
+    background-color: #000000;
 }
-  
+
 .effectBtn:hover span{
     -webkit-transform: translateY(-400%) scale(-0.1,20);
             transform: translateY(-400%) scale(-0.1,20);
 }
-  
+
 .effectBtn::before{
     content: attr(data-before-effect-link-text);
     color: #FFF;
@@ -653,15 +688,12 @@ canvas{
     -webkit-transform: translateY(500%) scale(-0.1,20);
             transform: translateY(500%) scale(-0.1,20);
 }
-  
+
 .effectBtn:hover::before{
     letter-spacing: 0.05em;
     -webkit-transform: translateY(0) scale(1,1);
             transform: translateY(0) scale(1,1);
 }
-
-
-
 
 .about-text-left {
     margin-top: 90px;
@@ -673,8 +705,6 @@ canvas{
     color: #fafafa;
     margin-bottom: 20px;
 }
-
-
 
 .about-right h2 {
     margin-bottom: 30px;
