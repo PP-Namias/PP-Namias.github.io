@@ -30,7 +30,6 @@
 
 html,body{
     height: 100%;
-    scrollbar-width: none;
 }
 
 body{
@@ -41,7 +40,17 @@ body{
     line-height: 1.7;
     color: #333333;
     font-weight: 400;
-    scrollbar-width: none; 
+    scrollbar-color: dark;
+}
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #111;
+}
+
+.dark-theme {
+    --primary-color: #111;
+    --secondary-color: #f2f2f2;
 }
 
 h1,
@@ -207,7 +216,7 @@ img {
     line-height: 18px;
     font-size: 13px;
     font-weight: normal;
-    color: #ffffff;
+    color: var(--primary-color);
     letter-spacing: 2px;
     margin-top: 5%;
     text-decoration: none;
@@ -334,7 +343,8 @@ img {
 
 .navbar-brand:focus, .navbar-brand:hover {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--secondary-color);
+
 }
 
 .navbar-right li{
@@ -360,6 +370,11 @@ img {
 
 .navbar-toggle .icon-bar{
     background: #033D75;
+}
+
+#icon {
+    width: 14px;
+    cursor: pointer;
 }
 
 /*---------- Nav area css ends -------------*/
@@ -514,7 +529,7 @@ canvas{
 }
 
 .stack img {
-    background: #fff;
+    color: var(--secondary-color);
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;

@@ -19,6 +19,22 @@ $(document).ready(function () {
 	});
 
 
+	//********** dark theme background
+
+    function toggleTheme() {
+        let icon = document.querySelector('#icon');
+    
+        document.body.classList.toggle("dark-theme");
+    
+        if (document.body.classList.contains("dark-theme")) {
+            icon.src = "./img/brightness.png";
+        }
+        else {
+            icon.src = "./img/night-mode.png"
+        }
+    }
+
+
 	//********** menu hides after click (mobile menu)
 
 	$(document).on('click', '.navbar-collapse.in', function (e) {
@@ -66,9 +82,7 @@ $(document).ready(function () {
 		offset: "80%"
 	});
 
-	
-    
-    
+
     //************ Magnific Popup
     
 
@@ -78,9 +92,8 @@ $(document).ready(function () {
             enabled: true
         }
     });
-	
-	
-    
+
+
     //*************** Isotope filter
 
     var $Container = $('#img-filter');
@@ -107,15 +120,12 @@ $(document).ready(function () {
     }
 
 
-
     //*************counter-up js
 
     $('.counter').counterUp({
         delay: 50,
         time: 8000
     });
-
-
 
 
     $(".testimonial-slider").owlCarousel({
@@ -137,10 +147,5 @@ $(document).ready(function () {
             }
         }
     });
-
-	
-	
-	
-
 
 });
