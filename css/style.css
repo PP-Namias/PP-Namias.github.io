@@ -1088,6 +1088,239 @@ ul.port-nav-list li a.active {
 
 /*-------- Portfolio area css ends---------*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+                     Projects
+================================================== */
+
+#projects {
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.projects-container {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: space-evenly;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.project-card {
+    padding: 10px;
+    margin: 10px;
+    background: #fafaff;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 6px #555;
+    -webkit-box-flex: 0;
+    flex: 0 0 300px;
+    align-self: flex-start;
+}
+
+.project-text {
+    margin-top: 10px;
+}
+
+.project-heading {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4400ff;
+    font-size: 18px;
+}
+
+.project-img {
+    margin-bottom: 5px;
+    border: 2px solid #4400ff;
+}
+
+.project-btn-container {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.project-btn img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.lang {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 2px -1px;
+    font-weight: bold;
+}
+
+.html,
+.react-js {
+    background-color: #ffe4ea;
+    color: #cc0f35;
+}
+
+.html:hover,
+.react-js:hover {
+    background-color: #cc0f35;
+    color: #ffe4ea;
+}
+
+.css,
+.scss {
+    background-color: #dcf0ff;
+    color: #1d72aa;
+}
+
+.css:hover,
+.scss:hover {
+    background-color: #1d72aa;
+    color: #dcf0ff;
+}
+
+.js {
+    background-color: #fff8dc;
+    color: #947600;
+}
+
+.js:hover {
+    background-color: #947600;
+    color: #fff8dc;
+}
+
+.php,
+.react-router {
+    background-color: #dfffea;
+    color: #257942;
+}
+
+.php:hover,
+.react-router:hover {
+    background-color: #257942;
+    color: #dfffea;
+}
+
+.mysql {
+    background-color: #daeafc;
+    color: #254979;
+}
+
+.mysql:hover {
+    background-color: #254979;
+    color: #daeafc;
+}
+
+.jquery,
+.json {
+    background-color: #dbdafc;
+    color: #253279;
+}
+
+.jquery:hover,
+.json:hover {
+    background-color: #253279;
+    color: #dbdafc;
+}
+
+.ajax,
+.api {
+    background-color: #fcd6fc;
+    color: #792562;
+}
+
+.ajax:hover,
+.api:hover {
+    background-color: #792562;
+    color: #fcd6fc;
+}
+
+.python {
+    background-color: #dbdafc;
+    color: #253279;
+}
+
+.python:hover {
+    background-color: #253279;
+    color: #dbdafc;
+}
+
+.tkinter {
+    background-color: #fcd6fc;
+    color: #792562;
+}
+
+.tkinter:hover {
+    background-color: #792562;
+    color: #fcd6fc;
+}
+
+.sqlite3 {
+    background-color: #ffe4ea;
+    color: #cc0f35;
+}
+
+.sqlite3:hover {
+    background-color: #cc0f35;
+    color: #ffe4ea;
+}
+
+.bootstrap {
+    background-color: #fff8dc;
+    color: #947600;
+}
+
+.bootstrap:hover {
+    background-color: #947600;
+    color: #fff8dc;
+}
+
+.cpp {
+    background-color: #ffe4ea;
+    color: #cc0f35;
+}
+
+.cpp:hover {
+    background-color: #cc0f35;
+    color: #ffe4ea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------- 10. Statistic area starts -----------*/
 
 .statistic-area{
