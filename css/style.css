@@ -377,6 +377,11 @@ img {
     cursor: pointer;
 }
 
+#theme-icon {
+    width: 25px;
+    cursor: pointer;
+}
+
 /*---------- Nav area css ends -------------*/
 
 /*----------- 5. Banner area css starts--------------*/
