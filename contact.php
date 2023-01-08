@@ -5,10 +5,10 @@ if(isset($_POST['submit'])) {
   $email = $_POST['email'];
   $message = $_POST['message'];
 
-  $mailTo = "jkrbn99@gmail.com";
+  $mailTo = "pp_namias@programmer.net";
   $headers = "From: ".$email;
   $txt = "You have recieved an email from ".$name.".\n\n".$message;
 
   mail($mailTo, $txt, $headers);
-header("Location: index.php?mailsend");
+  header("Location: index.php?mailsend");
 }
