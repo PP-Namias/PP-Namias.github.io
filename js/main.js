@@ -19,6 +19,16 @@ $(document).ready(function () {
 	});
 
 
+
+
+
+
+
+
+
+
+
+
 	//********** dark theme background
 
     function toggleTheme() {
@@ -33,6 +43,15 @@ $(document).ready(function () {
             icon.src = "./img/night-mode.png"
         }
     }
+
+
+
+
+
+
+
+
+
 
 
 	//********** menu hides after click (mobile menu)
