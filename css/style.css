@@ -343,8 +343,7 @@ img {
 
 .navbar-brand:focus, .navbar-brand:hover {
     text-decoration: none;
-    color: var(--secondary-color);
-
+    color: #0067dc;
 }
 
 .navbar-right li{
