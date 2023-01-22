@@ -1299,6 +1299,16 @@ ul.port-nav-list li a.active {
     color: #ffe4ea;
 }
 
+.java {
+    background-color: #ffe4ea;
+    color: #b07219;
+}
+
+.java:hover {
+    background-color: #b07219;
+    color: #ffe4ea;
+}
+
 
 
 
