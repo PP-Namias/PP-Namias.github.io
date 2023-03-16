@@ -35,7 +35,7 @@ $(document).ready(function () {
     }
     
 
-    	//********** Hacked Text Effect [Logo]
+    //********** Hacked Text Effect [Logo]
 
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -66,7 +66,7 @@ $(document).ready(function () {
         }, 30);
     }
 
-    
+
 	//********** menu hides after click (mobile menu)
 
 	$(document).on('click', '.navbar-collapse.in', function (e) {
