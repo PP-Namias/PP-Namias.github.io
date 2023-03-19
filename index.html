@@ -168,7 +168,7 @@
                         </div>
                         <div class="Button">
                             <a href="#skills-bd" class="btn btn-border-3 smooth-menu">MY SKILLS</a>
-                            <a href="images/about/PP-Namias cv.png" class="btn effectBtn" data-before-effect-link-text="Click" target="_blank"><span>DOWNLOAD CV</span></a>
+                            <a href="https://pp_namias.read.cv/" class="btn effectBtn" data-before-effect-link-text="Click" target="_blank"><span>MY CV</span></a>
                         </div>
                     </div>
                 </div>
@@ -909,6 +909,20 @@
     <script src="js/letters-type.js"></script>
     <script src="js/simple-scrollbar.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+        const swiper = new Swiper(".swiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
