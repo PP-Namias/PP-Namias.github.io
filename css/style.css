@@ -525,6 +525,8 @@ canvas{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+
 }
 
 .stack img {
