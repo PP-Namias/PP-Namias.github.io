@@ -33,6 +33,7 @@ html,body{
 }
 
 body{
+    background-image: url("../images/bg.svg");
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100%;
