@@ -1350,7 +1350,7 @@ ul.port-nav-list li a.active {
 }
 
 .testimonial-area{
-    background-image: url(../images/testimonial/1.jpg);
+    background-image: url(../images/testimonial/bg.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -1372,6 +1372,7 @@ ul.port-nav-list li a.active {
     background: #ffffff;
     border-radius: 5px;
     padding: 30px;
+    text-align: center;
 }
 
 .single-testimonial p {
