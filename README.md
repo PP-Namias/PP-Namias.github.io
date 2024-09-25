@@ -6,7 +6,7 @@
 
 <p align="center">
   <samp>
-    「 Bachelor of Science in Computer Science Student @ <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.ucc-caloocan.edu.ph"><img src="https://cdn.discordapp.com/attachments/1045298870533509130/1087532184916733962/UCC_logo_transformed.png" width="15"/> <b>University of Caloocan City</b></a> 」
+    「 Bachelor of Science in Computer Science Student @ <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.ucc-caloocan.edu.ph"><img src="https://cdn.discordapp.com/attachments/1045298870533509130/1087532184916733962/UCC_logo_transformed.png" width="15"/> <b>University of Caloocan City - North</b></a> 」
     <br>
     <b>Web Systems & Technologies Activity #1 (Bio Data)</b>
   </samp>
